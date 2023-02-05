@@ -31,7 +31,7 @@ A challenge by FrontEnd Mentor
 - CSS Grid
 - Mobile-first workflow
 - Vite + React
-- [Tailwind Css](https://styled-components.com/) - For styles
+- [tailwindcss](https://tailwindcss.com)
 
 
 ## Author
