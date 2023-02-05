@@ -47,7 +47,6 @@ const Article = () => {
           <div className='bg-LightGrayishBlue  w-8 h-8 rounded-full flex items-center justify-center cursor-pointer lg:hidden'  onClick={HandleClick}>
             <img src={share} alt="" />
           </div>
-
         </div>
       </div>
     </div>

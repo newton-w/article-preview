@@ -12,7 +12,7 @@ A challenge by FrontEnd Mentor
 
 ### Screenshot
   
-  ![](./screenshot.jpg)
+  ![](./screenshot.png)
 
 ### Links
 
