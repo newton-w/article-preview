@@ -20,7 +20,7 @@ const Article = () => {
   return (
     <main>
     <div className='w-full h-screen flex flex-col items-center justify-center bg-LightGrayishBlue opa'>
-      <div className='w-[20.436rem] h-auto flex flex-col bg-white rounded-xl shadow-lg lg:flex lg:flex-row lg:w-[45.75rem]'>
+      <div className='w-[20.436rem] h-auto flex flex-col bg-white rounded-xl shadow-lg lg:flex lg:flex-row lg:w-[45.75rem] lg:h-[17.5rem]'>
         <div >
           <img src={drawers} alt="" className='w-full h-[12.5rem] rounded-t-xl lg:h-full lg:w-[17.875rem] lg:object-cover lg:rounded-l-xl lg:rounded-tr-none' />
         </div>
