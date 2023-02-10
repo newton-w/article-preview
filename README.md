@@ -26,7 +26,7 @@ A challenge by FrontEnd Mentor
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- CSS custom properties 
 - Flexbox
 - CSS Grid
 - Mobile-first workflow

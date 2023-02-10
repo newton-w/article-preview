@@ -1,5 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  "tailwindCSS.includeLanguages": {
+    javascript: "javascript",
+    html: "HTML",
+  },
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",

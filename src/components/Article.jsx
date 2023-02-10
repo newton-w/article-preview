@@ -19,23 +19,23 @@ const Article = () => {
 
   return (
     <main>
-    <div className='w-full h-screen flex flex-col items-center justify-center bg-LightGrayishBlue opa'>
+    <div className='w-full h-screen flex flex-col items-center justify-center bg-LightGrayishBlue dark:bg-black'>
       <div className='w-[20.436rem] h-auto flex flex-col bg-white rounded-xl shadow-lg lg:flex lg:flex-row lg:w-[45.75rem]'>
         <div >
           <img src={drawers} alt="" className='w-full h-[12.5rem] rounded-t-xl lg:h-full lg:w-[17.875rem] lg:object-cover lg:rounded-l-xl lg:rounded-tr-none' />
         </div>
         <div className=' px-8 lg:w-[27.875rem]'>
-          <div className='flex flex-col '>
-            <h1 className='font-Manrope text-lg font-bold my-6'>Shift the overall look and feel by adding these wonderful touches to furniture in your home</h1>
-            <p className=' font-Manrope text-[0.813rem] font-medium mb-9'>Ever been in a room and felt like something is missing?Perhaps it felt slightly bare and uninviting. I've fot some tips
+          <div className='flex flex-col lg:gap-[1.5rem]'>
+            <h1 className='font-Manrope text-lg font-bold my-6 lg:my-0 lg:mt-[2.5rem]'>Shift the overall look and feel by adding these wonderful touches to furniture in your home</h1>
+            <p className=' font-Manrope text-[0.813rem] font-medium mb-9 lg:mb-0'>Ever been in a room and felt like something is missing?Perhaps it felt slightly bare and uninviting. I've fot some tips
               to make you feel any room feel complete.</p>
           </div>
-          <div className=' flex flex-row w-full  justify-between items-center py-5'>
+          <div className=' flex flex-row w-full  justify-between items-center py-5 lg:py-0 lg:pt-[1.5rem] lg:pb-[1.875rem]'>
             <div className='flex space-x-3 items-center'>
               <img src={michelle} alt="michelle-avatar" className='w-10 h-10 rounded-full' />
-              <p className='text-[0.813rem'>Michelle Appleton <br /> 28 June 2020</p>
+              <p className='text-[0.813rem]'>Michelle Appleton <br /> 28 June 2020</p>
             </div>
-            <div className='bg-LightGrayishBlue  w-8 h-8 rounded-full flex items-center justify-center cursor-pointer duration-300 hover:bg-slate-200' onClick={HandleClick}>
+            <div className='bg-LightGrayishBlue w-8 h-8 rounded-full flex items-center justify-center cursor-pointer duration-300 hover:bg-slate-200' onClick={HandleClick}>
               <img src={share} alt="" />
             </div>
           </div>
@@ -45,7 +45,7 @@ const Article = () => {
           <img src={facebook} alt="" className='object-cover cursor-pointer' />
           <img src={twitter} alt="" className='object-cover cursor-pointer' />
           <img src={pinterest} alt="" className='object-cover cursor-pointer' />
-          <div className='bg-LightGrayishBlue  w-8 h-8 rounded-full flex items-center justify-center cursor-pointer lg:hidden'  onClick={HandleClick}>
+          <div className='bg-LightGrayishBlue w-8 h-8 rounded-full flex items-center justify-center cursor-pointer lg:hidden'  onClick={HandleClick}>
             <img src={share} alt="" />
           </div>
         </div>
